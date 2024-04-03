@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SpaceXService } from '../space-x.service';
+import { SpaceXService } from '../network/space-x.service';
 import { Mission } from '../models/mission';
 
 @Component({
