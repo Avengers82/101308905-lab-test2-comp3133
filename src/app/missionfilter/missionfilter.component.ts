@@ -8,7 +8,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class MissionfilterComponent {
   @Output() yearFilter = new EventEmitter<number>();
 
-  selectedYear: number;
+  selectedYear!: number;
 
   filterByYear() {
     this.yearFilter.emit(this.selectedYear);
